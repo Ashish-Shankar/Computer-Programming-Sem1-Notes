@@ -1,0 +1,79 @@
+1. Who developed the C programming language and where?
+
+A) Ken Thompson at IBM
+B) Dennis Ritchie at Bell Labs
+C) Bjarne Stroustrup at Microsoft
+D) Linus Torvalds at Google
+Answer: B) Dennis Ritchie at Bell Labs
+
+2. What was the primary design philosophy of the C programming language?
+
+A) High-level abstraction with a large set of keywords
+B) Complex memory management with automatic garbage collection
+C) Direct access to memory, minimal runtime assistance, and a small set of keywords
+D) Simplified code syntax for web development
+Answer: C) Direct access to memory, minimal runtime assistance, and a small set of keywords
+
+3.Which of the following is NOT an advantage of using C?
+
+A) High efficiency similar to assembly language
+B) Portability across different systems
+C) Automatic memory management
+D) Standard Library support for a variety of functions
+Answer: C) Automatic memory management
+
+4. What makes C a suitable language for system programming?
+
+A) Its portability and abstraction features
+B) Its ability to handle multiple platforms without changes
+C) Its direct memory access and control over hardware
+D) Its large collection of libraries for graphics
+Answer: C) Its direct memory access and control over hardware
+
+5. Which of the following best describes C's impact on modern programming languages?
+
+A) It has no influence on other languages
+B) It only influenced languages used for web development
+C) It directly or indirectly influenced many languages like Java, Python, and C++
+D) It is primarily used for writing assembly-like programs
+Answer: C) It directly or indirectly influenced many languages like Java, Python, and C++
+
+6. Why is C considered portable?
+
+A) C programs are written in a high-level language
+B) C programs run identically on all platforms
+C) Properly written C code can run on various systems with minimal modifications
+D) C includes a large number of libraries to support various systems
+Answer: C) Properly written C code can run on various systems with minimal modifications
+
+7. Which of the following features is NOT a part of the C Standard Library?
+
+A) Memory management
+B) Graphical User Interface (GUI) support
+C) File handling
+D) Input/output operations
+Answer: B) Graphical User Interface (GUI) support
+
+8. What is one of the main challenges when programming in C?
+
+A) Limited control over memory
+B) Over-reliance on runtime error checking
+C) Manual memory management and lack of runtime checking
+D) Limited support for system programming
+Answer: C) Manual memory management and lack of runtime checking
+
+9. What makes learning C beneficial for new programmers?
+
+A) C provides a foundation for understanding system programming and influences other languages
+B) C has an easy-to-learn syntax
+C) C offers automatic error-checking and memory management
+D) C is used exclusively for web development
+Answer: A) C provides a foundation for understanding system programming and influences other languages
+
+10. Which of the following best describes the efficiency of C?
+
+A) It is slower than most high-level languages but easier to use
+B) It has efficiency similar to assembly language with high-level language features
+C) It is inefficient due to its low-level operations
+D) It is fast but lacks any high-level features
+Answer: B) It has efficiency similar to assembly language with high-level language features
