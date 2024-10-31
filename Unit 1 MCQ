@@ -77,3 +77,648 @@ B) It has efficiency similar to assembly language with high-level language featu
 C) It is inefficient due to its low-level operations
 D) It is fast but lacks any high-level features
 Answer: B) It has efficiency similar to assembly language with high-level language features
+
+11. Which statement best describes the purpose of decision control structures in C programming?
+
+A) To optimize code for faster execution
+B) To allow programs to make choices based on certain conditions
+C) To improve memory management
+D) To handle user interface designs
+Answer: B) To allow programs to make choices based on certain conditions
+
+12. Which of the following statements is used to create a basic decision-making structure in C?
+
+A) for
+B) while
+C) switch
+D) if
+Answer: D) if
+
+13. What will an if statement do if the specified condition is false?
+
+A) Execute an alternative code block
+B) Skip the code block inside the if statement
+C) Display an error message
+D) Exit the program
+Answer: B) Skip the code block inside the if statement
+
+14. Which structure is used in C programming to handle situations where there are two possible outcomes based on a single condition?
+
+A) for loop
+B) switch statement
+C) if-else statement
+D) while loop
+Answer: C) if-else statement
+
+15.What is the function of the switch-case structure in C?
+
+A) It allows the program to loop through a set of values
+B) It evaluates a condition and decides between two paths
+C) It enables the program to make multi-way decisions based on a variable's value
+D) It checks conditions repeatedly until they are true
+Answer: C) It enables the program to make multi-way decisions based on a variable's value
+
+16. In a switch-case statement, what is the purpose of the default keyword?
+
+A) To handle cases where no other case matches the expression's value
+B) To define the first case in the structure
+C) To end the switch statement
+D) To loop back to the first case
+Answer: A) To handle cases where no other case matches the expression's value
+
+17. Which of the following is an example of when to use a switch-case structure instead of multiple if-else statements?
+
+A) When performing a mathematical operation based on an operator input
+B) When checking for an even or odd number
+C) When reading user input in a loop
+D) When determining whether a number is positive or negative
+Answer: A) When performing a mathematical operation based on an operator input
+
+18. What makes the if-else structure a versatile tool in C programming?
+
+A) It can handle multi-way decisions
+B) It manages scenarios with a pair of potential outcomes in a clear way
+C) It automatically checks for syntax errors
+D) It repeats a block of code multiple times
+Answer: B) It manages scenarios with a pair of potential outcomes in a clear way
+
+19. Which statement is true about the importance of learning decision control structures in programming?
+
+A) They are only useful for experienced programmers
+B) They are fundamental for creating adaptable and interactive programs
+C) They replace the need for loops in C
+D) They are rarely used in modern programming languages
+Answer: B) They are fundamental for creating adaptable and interactive programs
+
+20. Which of the following structures in C programming enables programs to make a simple divergence in execution based on a condition?
+
+A) do-while loop
+B) switch-case statement
+C) if statement
+D) for loop
+Answer: C) if statement
+
+21. What type of control structure is used when a program needs to make a choice based on certain conditions?
+
+A) Loop control structure
+B) Sequence control structure
+C) Decision control structure
+D) Function control structure
+Answer: C) Decision control structure
+
+22. In the if-else structure, what will happen if the if condition is true?
+
+A) The code within the else block will execute
+B) The code within the if block will execute
+C) The program will terminate
+D) The program will skip both if and else blocks
+Answer: B) The code within the if block will execute
+ 
+23. Which of the following statements best describes the switch-case structure?
+
+A) It repeats code based on a condition
+B) It directs program flow based on multiple possible values of a variable
+C) It only works with Boolean conditions
+D) It can only compare integer values
+Answer: B) It directs program flow based on multiple possible values of a variable
+
+24. In a switch-case structure, if no case matches the expression's value, which section of code will execute (if available)?
+
+A) The first case
+B) The if block
+C) The default block
+D) The else block
+Answer: C) The default block
+
+25. What is the primary difference between if and switch statements?
+
+A) if is used for looping, while switch is not
+B) switch allows multi-way branching, while if typically handles binary decisions
+C) switch can only compare strings, while if compares numbers
+D) if statements are faster than switch statements
+Answer: B) switch allows multi-way branching, while if typically handles binary decisions
+
+26. Which control structure is most appropriate when multiple conditions need to be evaluated one after another?
+
+A) for loop
+B) do-while loop
+C) switch-case statement
+D) Nested if-else statements
+Answer: D) Nested if-else statements
+
+27. What does the if statement evaluate to determine program flow?
+
+A) A mathematical function
+B) A string comparison
+C) A Boolean expression or condition
+D) A function call
+Answer: C) A Boolean expression or condition
+
+28. Why might a switch-case structure be preferred over a series of if-else statements?
+
+A) It is faster in every scenario
+B) It provides a clearer and more concise way to handle multiple specific values of a variable
+C) It can handle floating-point numbers more effectively
+D) It offers more efficient memory management
+Answer: B) It provides a clearer and more concise way to handle multiple specific values of a variable
+
+29. In C, which of the following decision structures allows multiple cases to be handled without any condition checking?
+
+A) while loop
+B) for loop
+C) switch-case
+D) Nested if statements
+Answer: C) switch-case
+
+30. Which decision control structure is most suitable for scenarios where a specific action is taken for each unique value of a variable?
+
+A) while loop
+B) if statement
+C) switch-case
+D) for loop
+Answer: C) swi
+
+31. Which of the following is NOT a loop control structure in C?
+
+A) while
+B) do-while
+C) switch
+D) for
+Answer: C) switch
+ 
+32. What is the main purpose of loop control structures in C programming?
+
+A) To store data efficiently
+B) To control the sequence of function calls
+C) To repeat a segment of code multiple times
+D) To handle memory allocation
+Answer: C) To repeat a segment of code multiple times
+
+33. In a while loop, when is the condition checked?
+
+A) At the end of each iteration
+B) Before each iteration
+C) Only once at the start of the loop
+D) After the loop finishes
+Answer: B) Before each iteration
+
+34. Which loop structure in C is best suited for situations where the number of iterations is unknown?
+
+A) for loop
+B) do-while loop
+C) while loop
+D) All of the above
+Answer: C) while loop
+
+35. What is the unique characteristic of the do-while loop in C?
+
+A) It repeats a specific number of times
+B) It executes at least once regardless of the condition
+C) It does not require a condition
+D) It cannot include nested loops
+Answer: B) It executes at least once regardless of the condition
+
+36. In which scenario would a do-while loop be preferred over a while loop?
+
+A) When the loop must execute at least once
+B) When the number of iterations is fixed
+C) When the loop counter starts from zero
+D) When using multiple conditions
+Answer: A) When the loop must execute at least once
+
+37. Which loop structure is ideal for executing a code block a known, fixed number of times?
+
+A) do-while loop
+B) while loop
+C) switch-case
+D) for loop
+Answer: D) for loop
+
+38. What are the three parts of a for loop in C?
+
+A) Declaration, expression, increment
+B) Initialization, increment, condition
+C) Initialization, condition, increment/decrement operation
+D) Initialization, execution, loop variable
+Answer: C) Initialization, condition, increment/decrement operation
+
+39. Which of these best describes a situation for using a for loop in C?
+
+A) When displaying a menu to the user repeatedly
+B) When performing a calculation until a condition is met
+C) When executing code for a known, fixed number of times
+D) When an unpredictable number of iterations is needed
+Answer: C) When executing code for a known, fixed number of times
+
+40. How many times will the following do-while loop execute?
+
+
+int x = 5;
+do {
+    printf("%d", x);
+} while (x < 0);
+A) 0 times
+B) 1 time
+C) 5 times
+D) Infinite times
+Answer: B) 1 time
+
+41. What happens if the condition in a while loop is never true?
+A) The loop executes once
+B) The loop executes twice
+C) The loop does not execute at all
+D) The program will crash
+Answer: C) The loop does not execute at all
+
+42. Which loop structure can effectively replicate both while and do-while loop behaviors in C?
+A) Nested if statements
+B) for loop
+C) goto statement
+D) Recursive function
+Answer: B) for loop
+
+43. Which type of loop is best for implementing a menu-driven program that displays a menu at least once?
+A) for loop
+B) while loop
+C) do-while loop
+D) switch-case
+Answer: C) do-while loop
+
+44. When should a for loop generally be avoided?
+A) When the loop body has multiple statements
+B) When the number of iterations is unknown
+C) When it contains an if condition
+D) When there is a need to execute the loop only once
+Answer: B) When the number of iterations is unknown
+
+45. Which of the following best explains why loop control structures are essential in C programming?
+A) They allow repeated execution of code, helping create efficient and concise programs
+B) They handle all memory allocation tasks
+C) They replace the need for functions in a program
+D) They enable conditional execution of code
+Answer: A) They allow repeated execution of code, helping create efficient and concise programs
+
+46. What happens to the counter variable in a for loop after each iteration?
+A) It is initialized
+B) It is deleted
+C) It is incremented or decremented as defined in the loop
+D) It resets to its initial value
+Answer: C) It is incremented or decremented as defined in the loop
+
+47. Which of these is true regarding the while and do-while loops?
+A) while loop executes at least once, while do-while loop may not execute
+B) Both execute at least once
+C) do-while loop executes at least once, while while loop may not execute
+D) Both may execute zero times
+Answer: C) do-while loop executes at least once, while while loop may not execute
+
+48. In which scenario is a while loop preferred over a for loop?
+A) When the loop needs to run for a fixed number of times
+B) When the loop must execute at least once
+C) When the number of iterations depends on a condition evaluated each time
+D) When there are multiple counters
+Answer: C) When the number of iterations depends on a condition evaluated each time
+
+49. How does the for loop syntax enhance its readability for a fixed number of iterations?
+A) By allowing the loop counter to be declared outside the loop
+B) By having all loop control elements (initialization, condition, increment) in one line
+C) By automatically executing an infinite number of times
+D) By reducing the number of required braces {}
+Answer: B) By having all loop control elements (initialization, condition, increment) in one line
+
+50. Which loop control structure is commonly used for iterating over an array with a known number of elements?
+A) do-while loop
+B) while loop
+C) for loop
+D) goto statement
+Answer: C) for loop
+
+51. Which of the following is NOT true about C as a programming language?
+
+A) It is a high-level language
+B) It is object-oriented
+C) It is procedural
+D) It has influenced many modern languages
+Answer: B) It is object-oriented
+
+52. What is the primary purpose of the C Standard Library?
+
+A) To provide access to hardware
+B) To offer a collection of pre-built functions and headers
+C) To enable object-oriented programming in C
+D) To replace the need for loops
+Answer: B) To offer a collection of pre-built functions and headers
+
+53. Which decision control structure would be best to choose between multiple execution paths based on the exact value of an integer?
+
+A) if statement
+B) if-else statement
+C) switch-case statement
+D) for loop
+Answer: C) switch-case statement
+
+54. What role do decision control structures like if, if-else, and switch-case play in C?
+
+A) They perform mathematical operations
+B) They manage program memory
+C) They allow programs to make choices based on conditions
+D) They handle input and output operations
+Answer: C) They allow programs to make choices based on conditions
+
+55. Which of the following is NOT a feature of C as discussed in the module?
+
+A) Resilience and adaptability
+B) High-level procedural structure
+C) Comprehensive exception handling
+D) Impact on modern programming languages
+Answer: C) Comprehensive exception handling
+
+56. What is a key advantage of using loop control structures in C programming?
+
+A) They help avoid memory allocation issues
+B) They improve program efficiency by allowing repeated execution of code
+C) They eliminate the need for functions
+D) They automatically debug code
+Answer: B) They improve program efficiency by allowing repeated execution of code
+
+57. Why are decision and loop control structures essential for becoming proficient in C?
+
+A) They manage memory allocation directly
+B) They simplify complex mathematical calculations
+C) They form the foundation of logical decision-making and repetition in code
+D) They add object-oriented capabilities to C
+Answer: C) They form the foundation of logical decision-making and repetition in code
+
+58. Which control structure in C would you use to execute a block of code only if a condition is true?
+
+A) for loop
+B) if statement
+C) while loop
+D) do-while loop
+Answer: B) if statement
+
+59. If you want a program to execute a block of code a fixed number of times, which loop control structure would be most suitable?
+
+A) while loop
+B) do-while loop
+C) for loop
+D) switch-case
+Answer: C) for loop
+
+60. What is the primary benefit of the switch-case statement compared to multiple if-else statements?
+
+A) It requires fewer lines of code
+B) It is faster for comparing integer values
+C) It allows multiple conditions to be checked at once
+D) It provides more flexibility in handling multiple cases
+Answer: D) It provides more flexibility in handling multiple cases
+
+61. Why is understanding loop and decision control structures beneficial beyond C programming?
+
+A) They prevent errors in any language
+B) They are unique to C but improve general coding knowledge
+C) These structures are common across many programming languages
+D) They only affect C but help in learning assembly languages
+Answer: C) These structures are common across many programming languages
+
+62. Which statement is true regarding the execution of instructions in C?
+
+A) All instructions are executed sequentially without any conditions
+B) Instructions can be conditionally executed using decision control structures
+C) Instructions cannot repeat in C
+D) Every line of code must have a condition attached
+Answer: B) Instructions can be conditionally executed using decision control structures
+
+63. Which of the following best defines the term "procedural" as it relates to the C language?
+
+A) Focusing on objects and their interactions
+B) Allowing the organization of code into functions and procedures
+C) Running code in reverse order
+D) Managing memory automatically
+Answer: B) Allowing the organization of code into functions and procedures
+
+64. Which loop structure will execute its body at least once, even if the condition is initially false?
+
+A) while loop
+B) do-while loop
+C) for loop
+D) None of the above
+Answer: B) do-while loop
+
+65. Which characteristic of C has greatly influenced other programming languages?
+
+A) Object-oriented structure
+B) Extensive GUI capabilities
+C) Concise keywords and direct memory access
+D) Automatic garbage collection
+Answer: C) Concise keywords and direct memory access
+
+66. When would a switch-case structure be preferred over if-else?
+
+A) When evaluating a single integer or character for multiple specific values
+B) When multiple conditions need to be evaluated simultaneously
+C) When conditions require complex comparisons
+D) When evaluating boolean expressions
+Answer: A) When evaluating a single integer or character for multiple specific values
+
+67. In a for loop structure, which part controls the number of times the loop executes?
+
+A) The increment part
+B) The initialization part
+C) The condition part
+D) The loop body
+Answer: C) The condition part
+
+68. What makes the while loop an effective choice in situations where the end condition is unknown?
+
+A) The loop counter is outside the loop
+B) It executes only a specific number of times
+C) It keeps running until the condition becomes false
+D) It has an implicit end after each iteration
+Answer: C) It keeps running until the condition becomes false
+
+69. Which decision control structure is best suited for multi-way branching?
+
+A) if statement
+B) if-else statement
+C) switch-case statement
+D) for loop
+Answer: C) switch-case statement
+
+70. What is the primary function of control structures in a programming language like C?
+
+A) To reduce program length
+B) To optimize memory usage
+C) To control the flow of execution
+D) To replace manual code writing
+Answer: C) To control the flow of execution
+
+71. What type of applications is the C programming language especially suitable for?
+
+A) Web development
+B) Mobile application development
+C) System programming and embedded systems
+D) Graphic design
+Answer: C) System programming and embedded systems
+
+72. Which programming construct in C allows a program to execute different paths based on specific conditions?
+
+A) Loop structures
+B) Arithmetic operators
+C) Decision control structures
+D) Input/output functions
+Answer: C) Decision control structures
+
+73. What is the primary purpose of the 'if' statement in C?
+
+A) To repeat a block of code a certain number of times
+B) To evaluate a condition and execute a block of code if the condition is true
+C) To switch between multiple cases based on a value
+D) To handle error messages
+Answer: B) To evaluate a condition and execute a block of code if the condition is true
+
+74. Which of the following is NOT a decision control structure in C?
+
+A) if
+B) switch-case
+C) for
+D) if-else
+Answer: C) for
+
+75. In a loop structure, what condition is verified in a 'while' loop?
+
+A) After the loop executes once
+B) Before each iteration
+C) Only at the beginning of the program
+D) At the end of each iteration
+Answer: B) Before each iteration
+
+76. What distinguishes the 'for' loop from other loop control structures in C?
+
+A) It always executes at least once
+B) It has three parts: initialization, condition, and increment/decrement
+C) It only runs when the condition is false
+D) It does not allow counting iterations
+Answer: B) It has three parts: initialization, condition, and increment/decrement
+
+77. What type of loop would be ideal for iterating a specific block of code a known number of times?
+
+A) if statement
+B) do-while loop
+C) for loop
+D) switch-case
+Answer: C) for loop
+
+78. What does the term "low-level access to memory" mean in the context of the C programming language?
+
+A) C can run without an operating system
+B) C allows programmers to control memory directly, such as allocating and freeing memory
+C) C automatically manages memory like Java
+D) C has no control over memory management
+Answer: B) C allows programmers to control memory directly, such as allocating and freeing memory
+
+79. Which loop structure in C performs an increment or decrement operation as part of its syntax?
+
+A) while loop
+B) do-while loop
+C) for loop
+D) switch-case
+Answer: C) for loop
+
+80. How does the 'while' loop in C determine whether to continue running or stop?
+
+A) It continues until the user stops it manually
+B) It stops after a fixed number of iterations
+C) It checks a condition before each iteration and stops if the condition is false
+D) It always runs once, regardless of conditions
+Answer: C) It checks a condition before each iteration and stops if the condition is false
+
+81. What is the main role of loop control structures in C?
+
+A) To execute a single instruction conditionally
+B) To perform repetitive tasks efficiently
+C) To manage memory allocation
+D) To define program entry points
+Answer: B) To perform repetitive tasks efficiently
+
+82. Which of the following accurately describes a 'for' loop in C?
+
+A) It is best used for loops with a specific, known number of iterations
+B) It does not require a condition to run
+C) It runs an indefinite number of times until manually stopped
+D) It only works with integer counters
+Answer: A) It is best used for loops with a specific, known number of iterations
+
+83. What aspect of C makes it ideal for developing embedded systems?
+
+A) Its graphical capabilities
+B) Its automatic memory management
+C) Its ability to access memory at a low level
+D) Its extensive built-in libraries
+Answer: C) Its ability to access memory at a low level
+
+84. What is the main difference between a 'while' loop and a 'for' loop in terms of structure?
+
+A) 'for' loop has initialization, condition, and increment in one line, while 'while' loop does not
+B) 'while' loop is used only for numeric counting, while 'for' loop is not
+C) 'for' loop checks conditions at the end, whereas 'while' checks at the beginning
+D) 'for' loop cannot be used for indefinite loops
+Answer: A) 'for' loop has initialization, condition, and increment in one line, while 'while' loop does not
+
+85. Why might a 'while' loop be preferred over a 'for' loop in certain situations?
+
+A) When the number of iterations is known
+B) When the loop must always run at least once
+C) When the loop needs to repeat until a condition changes, with an unknown number of iterations
+D) When managing complex nested loops
+Answer: C) When the loop needs to repeat until a condition changes, with an unknown number of iterations
+
+86. What is one of the key features of C that differentiates it from some high-level languages?
+
+A) Its automatic memory management
+B) Its low-level memory access capability
+C) Its inability to work with embedded systems
+D) Its lack of support for structured programming
+Answer: B) Its low-level memory access capability
+
+87. What would happen in a 'for' loop if the condition is always true?
+
+A) The loop would run a specific number of times
+B) The loop would run infinitely until manually stopped or interrupted
+C) The loop would execute only once
+D) The loop would not run at all
+Answer: B) The loop would run infinitely until manually stopped or interrupted
+
+88. Which decision control structure is generally most efficient for multi-way branching based on a single variable's value?
+
+A) if statement
+B) if-else ladder
+C) switch-case
+D) while loop
+Answer: C) switch-case
+
+89. What type of loop in C always performs its condition check at the start of each iteration?
+
+A) do-while loop
+B) while loop
+C) for loop
+D) switch-case
+Answer: B) while loop
+
+90. Why is the 'for' loop considered versatile among loop structures in C?
+
+A) It can serve the purpose of other loops with modifications
+B) It does not require a condition to be specified
+C) It can only run once if needed
+D) It executes faster than other loops
+Answer: A) It can serve the purpose of other loops with modifications
+
+
+
+
+
+
+
+
+
+
