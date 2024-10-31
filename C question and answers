@@ -216,3 +216,67 @@ Explanation:
 Example Output: If the user inputs 5, the output will be:
 Sum of the first 5 numbers is: 15
 This program demonstrates how a for loop is well-suited for tasks where the number of repetitions is predetermined.
+
+
+Question 5
+ Write a brief program in C that utilises both decision control structures and loop
+control structures to address a situation. Provide an elucidation of the program's
+functionality and the significance of each control structure within the resolution.
+
+
+Answer:
+Here’s a C program that combines both decision control structures (if-else) and a loop control structure (for loop) to determine the grades of students based on their scores and print whether they passed or failed. This example showcases how decision-making and looping can be combined to process multiple entries efficiently.
+
+Program: Grading System
+#include <stdio.h>
+
+int main() {
+    int n, score;
+
+    // Ask the user how many students' scores they want to enter
+    printf("Enter the number of students: ");
+    scanf("%d", &n);
+
+    // Loop to process each student's score
+    for (int i = 1; i <= n; i++) {
+        printf("Enter score for student %d: ", i);
+        scanf("%d", &score);
+
+        // Decision control structure to determine pass or fail
+        if (score >= 50) {
+            printf("Student %d: Pass\n", i);
+        } else {
+            printf("Student %d: Fail\n", i);
+        }
+    }
+
+    return 0;
+}
+Explanation of Program Functionality
+User Input for Number of Students: The program begins by prompting the user to enter the number of students (n). This helps determine how many times the loop should run, as we’ll need to process each student’s score.
+
+Loop Control Structure (for loop):
+
+A for loop is used to repeat the input and evaluation process for each student, from 1 to n. This loop iterates n times, which allows the program to handle any number of students specified by the user.
+This loop structure is ideal here because the number of iterations is known (equal to the number of students).
+Decision Control Structure (if-else statement):
+
+Within each iteration, the program prompts the user to enter a score for the current student.
+The if-else statement then checks if the score is 50 or higher. If so, the student has passed, and “Pass” is printed. Otherwise, “Fail” is printed.
+This decision structure allows the program to evaluate each student’s score and make a decision on whether they passed or failed.
+Significance of Each Control Structure
+for loop: The for loop is essential for processing multiple students in one go, enabling the program to scale according to the input. It prevents the need to write repetitive code for each student, making the program efficient and flexible.
+
+if-else statement: This decision control structure helps classify each student as either "Pass" or "Fail" based on their score. Without it, the program wouldn’t be able to differentiate between passing and failing scores.
+
+Sample Output
+If the user enters 3 students with scores 55, 42, and 73, the output will be:
+
+Enter the number of students: 3
+Enter score for student 1: 55
+Student 1: Pass
+Enter score for student 2: 42
+Student 2: Fail
+Enter score for student 3: 73
+Student 3: Pass
+This program demonstrates a practical way of using both looping and decision-making to solve a problem effectively.
