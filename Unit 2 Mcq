@@ -1,0 +1,894 @@
+* Datatypes
+
+1. **What is the primary purpose of data types in C?**
+   - A) To enable loops
+   - B) To define memory allocation and value types for variables
+   - C) To simplify syntax
+   - D) To manage functions
+
+   **Answer:** B
+
+2. **Which data type in C is used to store whole numbers?**
+   - A) `float`
+   - B) `char`
+   - C) `int`
+   - D) `double`
+
+   **Answer:** C
+
+3. **Which floating-point data type in C provides more precision?**
+   - A) `float`
+   - B) `double`
+   - C) `int`
+   - D) `long`
+
+   **Answer:** B
+
+4. **What is the precision level of `float` in C?**
+   - A) Up to 6 decimal places
+   - B) Up to 10 decimal places
+   - C) Up to 15 decimal places
+   - D) Up to 20 decimal places
+
+   **Answer:** A
+
+5. **Which data type is used to store single characters in C?**
+   - A) `int`
+   - B) `char`
+   - C) `float`
+   - D) `double`
+
+   **Answer:** B
+
+6. **What is the primary purpose of the `unsigned int` data type in C?**
+   - A) To allow negative values only
+   - B) To store only positive integers
+   - C) To provide greater precision for floating points
+   - D) To store characters
+
+   **Answer:** B
+
+7. **Which data type would you use to store a larger integer value in C?**
+   - A) `short int`
+   - B) `unsigned int`
+   - C) `long int`
+   - D) `char`
+
+   **Answer:** C
+
+8. **What is the main advantage of using `double` over `float` in C?**
+   - A) Reduced memory usage
+   - B) Faster calculations
+   - C) Greater precision
+   - D) Larger integer storage
+
+   **Answer:** C
+
+9. **Which derived data type in C allows storing multiple values of the same type in a contiguous block?**
+   - A) `array`
+   - B) `pointer`
+   - C) `struct`
+   - D) `union`
+
+   **Answer:** A
+
+10. **What is the role of a pointer in C?**
+    - A) To store multiple values of the same type
+    - B) To point to the memory address of another variable
+    - C) To create a function
+    - D) To retain the memory size of a variable
+
+    **Answer:** B
+
+11. **Which derived data type in C allows for combining variables of different types?**
+    - A) `array`
+    - B) `pointer`
+    - C) `struct`
+    - D) `float`
+
+    **Answer:** C
+
+12. **What is the purpose of the `enum` data type in C?**
+    - A) To combine different data types into one variable
+    - B) To create a personalized data type with specific values
+    - C) To enable memory allocation
+    - D) To store multiple floating-point values
+
+    **Answer:** B
+
+13. **In C, the `void` type is commonly used for functions that:**
+    - A) Return integer values
+    - B) Don’t return a value
+    - C) Perform calculations
+    - D) Store character data
+
+    **Answer:** B
+
+14. **What is "type promotion" in C?**
+    - A) Converting a data type to a smaller type
+    - B) Allocating more memory to a variable
+    - C) Converting a smaller data type to a larger one during operations
+    - D) Preventing type conversions
+
+    **Answer:** C
+
+15. **Which operator is used in C to determine the size of a data type or variable?**
+    - A) `sizeof`
+    - B) `sizeofvar`
+    - C) `dim`
+    - D) `size`
+
+    **Answer:** A
+
+16. **What does the `const` qualifier do in C?**
+    - A) Allows variable values to change
+    - B) Prevents variable values from changing after initialization
+    - C) Makes variables volatile
+    - D) Converts integers to floating points
+
+    **Answer:** B
+
+17. **When a variable is declared `volatile` in C, it implies that:**
+    - A) The variable’s value remains constant
+    - B) The compiler should not assume the variable’s value is consistent
+    - C) The variable is only used in loops
+    - D) It prevents any conversions of the variable
+
+    **Answer:** B
+
+18. **What advantage does dynamic memory allocation provide in C?**
+    - A) Fixed memory allocation
+    - B) Flexibility to allocate and free memory at runtime
+    - C) Reduces memory usage
+    - D) Enables faster program execution
+
+    **Answer:** B
+
+19. **The `malloc` function in C is used to:**
+    - A) Free allocated memory
+    - B) Allocate dynamic memory
+    - C) Display memory size
+    - D) Return integer data
+
+    **Answer:** B
+
+20. **Which data type in C is associated with ASCII values?**
+    - A) `float`
+    - B) `char`
+    - C) `int`
+    - D) `double`
+
+    **Answer:** B
+
+21. **The `union` data type in C allows:**
+    - A) Storage of multiple types, with only one member holding a value at a time
+    - B) Storage of multiple characters
+    - C) The execution of multiple operations simultaneously
+    - D) Creation of functions
+
+    **Answer:** A
+
+22. **In C, which data type can be used to create a list of named integer constants?**
+    - A) `struct`
+    - B) `array`
+    - C) `enum`
+    - D) `void`
+
+    **Answer:** C
+
+23. **Which type qualifier in C indicates that a variable may change unexpectedly?**
+    - A) `const`
+    - B) `volatile`
+    - C) `static`
+    - D) `register`
+
+    **Answer:** B
+
+24. **The function `calloc` in C is different from `malloc` because it:**
+    - A) Does not allocate memory
+    - B) Allocates memory and initializes all bits to zero
+    - C) Allocates memory and returns a float
+    - D) Frees previously allocated memory
+
+    **Answer:** B
+
+25. **What is the effect of static typing in C?**
+    - A) Variables can change types dynamically
+    - B) Variables retain their data type during compilation
+    - C) Variables don’t occupy memory
+    - D) Variables have no initial value
+
+    **Answer:** B
+
+* Functions
+
+1. **What is the primary purpose of functions in C?**
+   - A) To perform arithmetic operations only
+   - B) To improve code organization, reuse, and readability
+   - C) To reduce the number of variables used
+   - D) To store data
+
+   **Answer:** B
+
+2. **Which technique is used by functions to break down complex problems in C?**
+   - A) Object-oriented programming
+   - B) Divide-and-conquer
+   - C) Polymorphism
+   - D) Recursion
+
+   **Answer:** B
+
+3. **What is the first element in a C function's structure?**
+   - A) Function name
+   - B) Return type
+   - C) Parameters
+   - D) Function body
+
+   **Answer:** B
+
+4. **What is the purpose of the `return` statement in a function?**
+   - A) To execute code within the function
+   - B) To exit the program
+   - C) To send the result back to the caller
+   - D) To define the function's parameters
+
+   **Answer:** C
+
+5. **What is a major advantage of using functions in code?**
+   - A) Decreased memory usage
+   - B) Easier code reuse
+   - C) No need for variables
+   - D) Faster compilation time
+
+   **Answer:** B
+
+6. **Which concept allows functions in C to hide the details of an operation?**
+   - A) Inheritance
+   - B) Encapsulation
+   - C) Overloading
+   - D) Debugging
+
+   **Answer:** B
+
+7. **Which type of function is included in the C Standard Library, like `printf` and `sqrt`?**
+   - A) User-defined functions
+   - B) Recursive functions
+   - C) Library functions
+   - D) Inline functions
+
+   **Answer:** C
+
+8. **What type of function calls itself to solve a problem?**
+   - A) Inline function
+   - B) Library function
+   - C) Static function
+   - D) Recursive function
+
+   **Answer:** D
+
+9. **In C, what defines the area where a variable is accessible?**
+   - A) Lifetime
+   - B) Scope
+   - C) Duration
+   - D) Location
+
+   **Answer:** B
+
+10. **Which of the following describes a local variable in C?**
+    - A) It can be accessed from any function
+    - B) It exists only within the function it is defined in
+    - C) It persists throughout the entire program’s execution
+    - D) It is shared across different files
+
+    **Answer:** B
+
+11. **What is the role of a global variable in C?**
+    - A) It is only accessible in one function
+    - B) It persists for one function call
+    - C) It is accessible across the entire program
+    - D) It is created and destroyed within a function
+
+    **Answer:** C
+
+12. **What effect does the `static` keyword have on a local variable in a function?**
+    - A) It makes the variable a global variable
+    - B) It prevents the variable from changing
+    - C) It preserves the variable’s value between function calls
+    - D) It reduces the variable’s memory size
+
+    **Answer:** C
+
+13. **What is a function prototype in C?**
+    - A) A pre-defined function in the library
+    - B) A declaration that specifies a function’s return type and parameters before its definition
+    - C) A variable declaration in a function
+    - D) A loop structure within a function
+
+    **Answer:** B
+
+14. **Why are function prototypes useful in C?**
+    - A) They improve program speed
+    - B) They allow functions to be used before their definitions
+    - C) They make the code shorter
+    - D) They increase function complexity
+
+    **Answer:** B
+
+15. **Where are function prototypes, global variable declarations, and constants usually stored in C?**
+    - A) In header files
+    - B) In the main function
+    - C) In the standard library
+    - D) In dynamic memory
+
+    **Answer:** A
+
+16. **What is a function pointer in C?**
+    - A) A pointer that stores the memory location of another pointer
+    - B) A pointer that refers to a function instead of data
+    - C) A type of recursive function
+    - D) A variable used to store functions
+
+    **Answer:** B
+
+17. **What is an inline function in C?**
+    - A) A function that calls itself
+    - B) A function that is replaced at the point of call to reduce call overhead
+    - C) A function with no return type
+    - D) A function defined in a header file
+
+    **Answer:** B
+
+18. **What is a primary drawback of excessive use of inline functions?**
+    - A) Increased function call overhead
+    - B) Slower program execution
+    - C) Increased binary file size
+    - D) Decreased function reuse
+
+    **Answer:** C
+
+19. **What does the `return` type of a function specify?**
+    - A) The function’s name
+    - B) The arguments it takes
+    - C) The type of value the function will send back to the caller
+    - D) The location of the function in memory
+
+    **Answer:** C
+
+20. **Which function category in C typically handles repetitive tasks like printing and square root calculations?**
+    - A) Inline functions
+    - B) User-defined functions
+    - C) Recursive functions
+    - D) Library functions
+
+    **Answer:** D
+
+21. **What is the main purpose of recursion in a function?**
+    - A) To reduce memory usage
+    - B) To allow a function to call itself to solve smaller instances of a problem
+    - C) To improve readability
+    - D) To reduce the number of parameters in a function
+
+    **Answer:** B
+
+22. **What defines the lifetime of a variable in C?**
+    - A) Its data type
+    - B) Its placement in the code
+    - C) Its memory allocation method
+    - D) The duration it exists in memory during program execution
+
+    **Answer:** D
+
+23. **What keyword would you use to define a variable in C that maintains its value between function calls?**
+    - A) `extern`
+    - B) `global`
+    - C) `static`
+    - D) `register`
+
+    **Answer:** C
+
+24. **How does the use of header files improve code organization?**
+    - A) By reducing the need for variables
+    - B) By allowing the reuse of function prototypes and constants across multiple files
+    - C) By combining multiple functions into one block
+    - D) By decreasing program size
+
+    **Answer:** B
+
+25. **Why is the `divide-and-conquer` technique beneficial in programming?**
+    - A) It speeds up program execution
+    - B) It breaks down complex problems into simpler functions, making the code easier to manage
+    - C) It combines all code into one large function
+    - D) It only applies to mathematical operations
+
+    **Answer:** B
+
+
+* pointer
+
+1. **What is the primary function of a pointer in C?**
+   - A) To store integer values
+   - B) To hold a memory address of another variable
+   - C) To perform arithmetic operations
+   - D) To define constants
+
+   **Answer:** B
+
+2. **How do pointers facilitate modifying function arguments beyond their scope in C?**
+   - A) By storing values directly
+   - B) By using the pass-by-value method
+   - C) By allowing pass-by-reference
+   - D) By assigning memory addresses randomly
+
+   **Answer:** C
+
+3. **Which symbol is used to declare a pointer in C?**
+   - A) &
+   - B) #
+   - C) %
+   - D) *
+
+   **Answer:** D
+
+4. **What does the address-of operator (&) do in C?**
+   - A) Retrieves the value at an address
+   - B) Increments a pointer by one
+   - C) Provides the memory location of a variable
+   - D) Converts integers to characters
+
+   **Answer:** C
+
+5. **Which operator is used to access the value stored at the address a pointer holds?**
+   - A) &
+   - B) #
+   - C) *
+   - D) $
+
+   **Answer:** C
+
+6. **Why does pointer arithmetic in C vary with pointer types (e.g., `int*` vs `char*`)?**
+   - A) Different types have different memory requirements
+   - B) It depends on the variable name
+   - C) Only certain data types allow arithmetic operations
+   - D) Pointers cannot store memory addresses
+
+   **Answer:** A
+
+7. **What does incrementing an integer pointer by 1 do on most modern systems?**
+   - A) Moves it forward by one byte
+   - B) Moves it forward by four bytes
+   - C) Resets it to zero
+   - D) Decrements it by four bytes
+
+   **Answer:** B
+
+8. **What feature do pointers provide when working with arrays in C?**
+   - A) Direct access to memory outside the array bounds
+   - B) Automatic sorting of array elements
+   - C) Efficient navigation and manipulation of arrays
+   - D) Conversion of arrays to integers
+
+   **Answer:** C
+
+9. **Which C library function is NOT related to dynamic memory management?**
+   - A) `malloc()`
+   - B) `calloc()`
+   - C) `realloc()`
+   - D) `printf()`
+
+   **Answer:** D
+
+10. **What is the role of `free()` in C programming?**
+    - A) Allocates memory for arrays
+    - B) Deallocates previously allocated memory
+    - C) Increments pointer values
+    - D) Copies data from one memory location to another
+
+    **Answer:** B
+
+11. **Why are pointers useful for creating complex data structures like linked lists and trees?**
+    - A) They can store any type of data
+    - B) They allow direct access to hardware
+    - C) They allow dynamic memory management and reference-based data structures
+    - D) They have built-in sorting and searching functions
+
+    **Answer:** C
+
+12. **In C, what is an array fundamentally considered as?**
+    - A) A static pointer to the last element
+    - B) A mutable pointer to the middle element
+    - C) An immutable pointer to the first element
+    - D) A constant pointer to the first element
+
+    **Answer:** D
+
+13. **What can a function pointer in C be used for?**
+    - A) Storing memory addresses of arrays
+    - B) Referring to and passing functions dynamically
+    - C) Accessing global variables
+    - D) Declaring a function multiple times
+
+    **Answer:** B
+
+14. **Which of the following is a common issue associated with pointers?**
+    - A) Limited data types
+    - B) Excessive memory consumption
+    - C) Memory leaks and segmentation faults
+    - D) Slower program execution
+
+    **Answer:** C
+
+15. **What is a potential risk when dereferencing a pointer in C?**
+    - A) It automatically frees the memory
+    - B) It can lead to accessing unallocated memory if not handled carefully
+    - C) It turns the variable into a global variable
+    - D) It converts the pointer to an integer
+
+    **Answer:** B
+
+16. **Which of the following statements is true about pointer arithmetic in C?**
+    - A) It works only with integer pointers
+    - B) It is adjusted based on the size of the data type the pointer points to
+    - C) It moves the pointer by one byte regardless of data type
+    - D) It is limited to global variables only
+
+    **Answer:** B
+
+17. **What does `malloc()` return in C when it successfully allocates memory?**
+    - A) The address of the allocated memory block
+    - B) A boolean value
+    - C) A character pointer
+    - D) The size of the memory block
+
+    **Answer:** A
+
+18. **What is the purpose of using pointers in function arguments?**
+    - A) To avoid using global variables
+    - B) To increase code readability
+    - C) To enable functions to modify variables outside their local scope
+    - D) To simplify variable declarations
+
+    **Answer:** C
+
+19. **Which of the following is a primary advantage of using pointers?**
+    - A) They allow access to local variables only
+    - B) They enable direct memory manipulation and efficient data structure management
+    - C) They automatically handle memory allocation
+    - D) They eliminate the need for functions
+
+    **Answer:** B
+
+20. **Which operation is NOT typically associated with pointers?**
+    - A) Dereferencing
+    - B) Memory management
+    - C) String manipulation
+    - D) Arithmetic operations on strings
+
+    **Answer:** D
+
+
+* summary 
+
+1. **What is the primary advantage of using functions in C programming?**
+   - A) They help create global variables automatically
+   - B) They enable code reusability and modularization
+   - C) They reduce memory usage by half
+   - D) They eliminate the need for libraries
+
+   **Answer:** B
+
+2. **Which of the following data types in C is NOT considered a derived type?**
+   - A) Array
+   - B) Integer
+   - C) Pointer
+   - D) Structure
+
+   **Answer:** B
+
+3. **What is a function prototype in C?**
+   - A) A function without a return type
+   - B) A declaration that specifies a function's return type and parameters before its definition
+   - C) A function used to initialize pointers
+   - D) A function with no parameters
+
+   **Answer:** B
+
+4. **Which data type would be most suitable for storing a character value in C?**
+   - A) `float`
+   - B) `int`
+   - C) `char`
+   - D) `double`
+
+   **Answer:** C
+
+5. **Which keyword is used to retain a variable's value between function calls in C?**
+   - A) `const`
+   - B) `volatile`
+   - C) `extern`
+   - D) `static`
+
+   **Answer:** D
+
+6. **What type of C data structure allows grouping of different data types together?**
+   - A) Array
+   - B) Structure
+   - C) Integer
+   - D) Pointer
+
+   **Answer:** B
+
+7. **Which of the following is an integral data type in C?**
+   - A) `float`
+   - B) `double`
+   - C) `int`
+   - D) `struct`
+
+   **Answer:** C
+
+8. **What is the purpose of a header file in C programming?**
+   - A) To store data values only
+   - B) To declare functions, global variables, and constants for reuse across files
+   - C) To increase memory for arrays
+   - D) To execute code faster
+
+   **Answer:** B
+
+9. **Which operator is associated with pointers and is used to retrieve the address of a variable?**
+   - A) `*`
+   - B) `&`
+   - C) `++`
+   - D) `--`
+
+   **Answer:** B
+
+10. **What does pointer arithmetic allow in C programming?**
+    - A) Automatic type conversion of pointers
+    - B) Manipulating the memory address stored in a pointer based on its data type
+    - C) Creating functions without prototypes
+    - D) Eliminating the need for dereferencing
+
+    **Answer:** B
+
+11. **Which of these C data types can represent floating-point values?**
+    - A) `int`
+    - B) `char`
+    - C) `float`
+    - D) `struct`
+
+    **Answer:** C
+
+12. **How does a function pointer differ from a regular pointer in C?**
+    - A) It stores addresses of arrays
+    - B) It refers to a function’s address rather than data
+    - C) It can only store addresses of static variables
+    - D) It requires no dereferencing
+
+    **Answer:** B
+
+13. **Which of the following statements about arrays and pointers in C is true?**
+    - A) Arrays cannot be accessed through pointers
+    - B) An array name is a pointer to its first element
+    - C) Arrays are stored outside memory
+    - D) Arrays and pointers are entirely unrelated
+
+    **Answer:** B
+
+14. **Why might using `malloc()` be advantageous over declaring static arrays in C?**
+    - A) It eliminates the need for pointers
+    - B) It provides dynamic memory allocation, allowing flexibility at runtime
+    - C) It automatically manages memory without the need to free it
+    - D) It restricts arrays to smaller sizes
+
+    **Answer:** B
+
+15. **Which of the following is a potential risk when using pointers in C?**
+    - A) They simplify the code too much
+    - B) They can cause memory leaks if dynamically allocated memory is not freed
+    - C) They make functions run slower
+    - D) They prevent global variables from being accessed
+
+    **Answer:** B
+
+16. **In C, how can you make a function inline?**
+    - A) By using the `static` keyword
+    - B) By declaring it within another function
+    - C) By using the `inline` keyword to suggest inlining to the compiler
+    - D) By placing it in the main function
+
+    **Answer:** C
+
+17. **What does the keyword `extern` indicate about a variable in C?**
+    - A) It is a constant value
+    - B) It is a local variable
+    - C) It is defined in another file or location
+    - D) It is always initialized to zero
+
+    **Answer:** C
+
+18. **What is a major benefit of using function pointers in C?**
+    - A) They reduce the need for header files
+    - B) They allow dynamic function calls and more flexible program designs
+    - C) They increase array processing speed
+    - D) They make global variables accessible only within functions
+
+    **Answer:** B
+
+19. **Which type of variable is automatically allocated when the program starts and deallocated when the program ends?**
+    - A) Local variable
+    - B) Static global variable
+    - C) Dynamic variable
+    - D) Pointer variable
+
+    **Answer:** B
+
+20. **What will `calloc()` do differently from `malloc()` in C?**
+    - A) Allocates memory without initializing it
+    - B) Allocates and initializes allocated memory to zero
+    - C) Deallocates memory automatically
+    - D) Initializes memory to random values
+
+    **Answer:** B
+
+* keywords
+
+1. **Which of the following is an example of a floating-point data type in C?**
+   - A) `int`
+   - B) `char`
+   - C) `float`
+   - D) `struct`
+
+   **Answer:** C
+
+2. **In C programming, what is the primary role of pointers?**
+   - A) To store functions only
+   - B) To store the address of other variables for indirect access and manipulation
+   - C) To create arrays automatically
+   - D) To eliminate the need for data types
+
+   **Answer:** B
+
+3. **Which function in C is used to dynamically allocate a block of memory that is initialized to zero?**
+   - A) `malloc()`
+   - B) `calloc()`
+   - C) `realloc()`
+   - D) `free()`
+
+   **Answer:** B
+
+4. **What is a function pointer in C?**
+   - A) A pointer that stores addresses of local variables
+   - B) A pointer that refers to functions instead of data
+   - C) A pointer that automatically manages memory
+   - D) A pointer that points only to arrays
+
+   **Answer:** B
+
+5. **Which of the following describes the main advantage of dynamic memory allocation?**
+   - A) Memory is assigned at compile time
+   - B) Allows memory allocation at runtime, providing flexibility
+   - C) Memory is never freed
+   - D) Memory is allocated for local variables only
+
+   **Answer:** B
+
+6. **When using `malloc()` in C, what must a programmer do to avoid memory leaks?**
+   - A) Use `realloc()` to resize memory
+   - B) Use `free()` to release the allocated memory when it’s no longer needed
+   - C) Use `malloc()` again to reset the memory
+   - D) Assign a `NULL` pointer to `malloc()`
+
+   **Answer:** B
+
+7. **What is the result of pointer arithmetic when adding 1 to an `int*` pointer on most modern systems?**
+   - A) The pointer is incremented by 1 byte
+   - B) The pointer is incremented by 2 bytes
+   - C) The pointer is incremented by 4 bytes (size of `int`)
+   - D) The pointer value remains the same
+
+   **Answer:** C
+
+8. **Which of the following operations can be performed on pointers in C using pointer arithmetic?**
+   - A) Adding two pointers together
+   - B) Subtracting one pointer from another
+   - C) Dividing one pointer by another
+   - D) Multiplying two pointers
+
+   **Answer:** B
+
+9. **In C, if you have `int *p;`, what does `*p` represent?**
+   - A) The address stored in `p`
+   - B) The value at the memory location pointed to by `p`
+   - C) The size of the pointer `p`
+   - D) The next memory location of `p`
+
+   **Answer:** B
+
+10. **Why would you use a function pointer as a parameter in C?**
+    - A) To allocate memory dynamically
+    - B) To allow different functions to be passed and executed dynamically
+    - C) To ensure static memory usage
+    - D) To only point to `malloc` functions
+
+    **Answer:** B
+
+11. **Which function reallocates previously allocated memory to a new size in C?**
+    - A) `malloc()`
+    - B) `calloc()`
+    - C) `realloc()`
+    - D) `free()`
+
+    **Answer:** C
+
+12. **In C, how is the `free()` function used?**
+    - A) To allocate additional memory
+    - B) To deallocate memory previously allocated by `malloc()` or `calloc()`
+    - C) To resize allocated memory
+    - D) To initialize pointer values
+
+    **Answer:** B
+
+13. **What type of values do pointer variables store in C?**
+    - A) Direct data values
+    - B) Addresses of other variables or memory locations
+    - C) Only integer values
+    - D) Only floating-point values
+
+    **Answer:** B
+
+14. **What is a notable risk of using pointer arithmetic improperly in C?**
+    - A) Enhanced speed in memory traversal
+    - B) Increased reliability of code
+    - C) Accessing memory outside allocated bounds, leading to undefined behavior
+    - D) Automatic error detection in memory access
+
+    **Answer:** C
+
+15. **When `calloc()` is used in C, what unique feature does it provide?**
+    - A) No memory allocation
+    - B) Allocates memory without initializing it
+    - C) Allocates memory and initializes it to zero
+    - D) Automatically reallocates memory if full
+
+    **Answer:** C
+
+16. **Which data structure in C is commonly managed using pointers and dynamic memory allocation?**
+    - A) Constant arrays
+    - B) Integer variables
+    - C) Linked lists
+    - D) Static global variables
+
+    **Answer:** C
+
+17. **What is the effect of `*p = 10;` when `p` is an integer pointer in C pointing to a valid integer variable?**
+    - A) Assigns `10` to `p` itself
+    - B) Changes the value of the variable `p` is pointing to, setting it to `10`
+    - C) Deallocates memory pointed to by `p`
+    - D) Deletes the pointer `p`
+
+    **Answer:** B
+
+18. **Which operator is used to retrieve the memory address of a variable in C?**
+    - A) `*`
+    - B) `&`
+    - C) `++`
+    - D) `--`
+
+    **Answer:** B
+
+19. **What does a `NULL` pointer represent in C?**
+    - A) An integer pointer
+    - B) A pointer pointing to a known memory location
+    - C) A pointer that points to no memory location or an invalid memory address
+    - D) A character pointer
+
+    **Answer:** C
+
+20. **In C, which of the following accurately describes a characteristic of arrays and pointers?**
+    - A) Arrays cannot be accessed using pointers
+    - B) The array name represents a pointer to its first element
+    - C) Arrays and pointers are fundamentally unrelated
+    - D) Pointers cannot be used to traverse array elements
+
+    **Answer:** B
+
+
+
